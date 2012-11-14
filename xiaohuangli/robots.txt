@@ -1,0 +1,13 @@
+User-agent: *
+Crawl-delay: 120
+Disallow: /
+Disallow: /js/
+Disallow: /img/
+Disallow: /css/
+Disallow: /backup_student/
+Disallow: /backup_youth/
+Disallow: /student_add/
+Disallow: /student_show/
+Disallow: /youth_add/
+Disallow: /youth_show/
+Disallow: /logout/
