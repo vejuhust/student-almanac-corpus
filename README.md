@@ -16,13 +16,17 @@
 配置LAMP，需要MySQL、PHP以及nginx支持。
 
 ## 2.3.部署
-1.在数据库中执行database中两个sql脚本。
+在数据库中执行database中两个sql脚本，例如
 
-2.将xiaohuangli和includes放置于网站更目录下，例如/alidata/www/default/，并在此目录下的robots.txt中写入
+    source /root/xiaohuangli/create_youth.sql
+    source /root/xiaohuangli/create_student.sql
+
+将xiaohuangli和includes放置于网站更目录下，例如/alidata/www/default/，并在此目录下的robots.txt中写入
+
     Disallow: /xiaohuangli/
-    Disallow: /includes/
-
-3.网站登陆访问，对于站点内容，可以使用content中数据，或者借助weibo中的脚本从新浪微博获取。
+    Disallow: /includes/  
+   
+网站登陆访问，对于站点内容，可以使用content中数据，或者借助weibo中的脚本从新浪微博获取。
 
 # 3.维护指南
 以阿里云为例
